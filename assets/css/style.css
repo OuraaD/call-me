@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header p{
+    font-style: italic;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container {
+    padding: 20px;
+}
+.product {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product img {
+    width: 250px; 
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+.product img:hover {
+    transform: scale(1.1); 
+}
+h1{
+text-transform: uppercase;
+margin-top: 10px;
+}
+#home{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+.para{
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline; 
+}

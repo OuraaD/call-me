@@ -1,4 +1,11 @@
 
+@font-face {
+  font-family: 'San Francisco';
+  src: url('path-to-your-font-files/SF-Pro-Text-Regular.woff2') format('woff2'),
+       url('path-to-your-font-files/SF-Pro-Text-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -7,7 +14,8 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+ 
 }
 header {
   background-color: #000000;
@@ -136,6 +144,18 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.change-color:hover {
+  background-color: #1c1c1ce5;
+  color: white;
+}
+
+a{
+  text-decoration: none;
 }
 .link{
     width: 100%;

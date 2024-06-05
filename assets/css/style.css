@@ -54,13 +54,15 @@ h1 {
 }
 
 .video-container {
-  padding: 0 20px;
+  width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  margin-top: 50px;
 }
-
 video {
   width: 100vw;
   max-height: 100vh;
-  display: block;
+  margin-top: 50px;
   border-radius: 50px;
 }
 
